@@ -12,7 +12,7 @@ header{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     height: 90%;
@@ -36,9 +36,10 @@ h1{
     width: 400px;
 }
 
-img{
+#links, #midden, #rechts{
     width: 400px;
     height: 300px;
+    flex-direction: row;
 }
 
 
@@ -55,6 +56,15 @@ body{
 
 footer{
     background-color: blueviolet;
-    
+    height: 100px;
+    width: 100%;
+}
+
+#links{
+    margin-right: 20%;
+}
+
+#rechts{
+    margin-left: 20%;
 }
  
