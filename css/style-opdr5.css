@@ -11,12 +11,17 @@ header{
     
 }
 
+header nav{
+    display: flex;
+
+}
+
 main{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 90%;
+    height: 80%;
   
 }
 
@@ -24,6 +29,8 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -38,14 +45,6 @@ main{
 h1{
     width: 400px;
 }
-
-#links, #midden, #rechts{
-    width: 20%;
-    height: 20%;
-    flex-direction: row;
-    
-}
-
 
 nav {
  display: flex;
@@ -75,19 +74,40 @@ footer{
  
 #deel1{
     height: 100%;
-    width: 40%;
+    width: 25%;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #deel2{
     height: 100%;
-    width: 60%;
+    width: 100%;
     background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #knop{
-    height: 8%;
-    width: 18%;
+    height: 50px;
+    width: 150px;
     display: flex;
     flex-direction: column;
+}
+
+#box{
+    margin-top: 40px;
+}
+
+img{
+    width: 250px;
+    height: 60%;
+}
+
+p{
+    width: 200px;
+    height: 150px;
 }
